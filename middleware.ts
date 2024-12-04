@@ -29,5 +29,8 @@ export function middleware(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ['/((?!api|_next/static|_next/image|favicon.ico).*)'],
+  matcher: [
+    // 排除不需要重定向的路径
+    '/((?!api|_next/static|_next/image|images|favicon.ico|robots.txt|sitemap.xml).*)',
+  ],
 }; 
