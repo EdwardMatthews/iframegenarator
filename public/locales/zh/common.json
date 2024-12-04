@@ -1,0 +1,170 @@
+{
+  "site": {
+    "title": "IFrame 生成器",
+    "description": "生成和自定义iframe代码，支持实时预览"
+  },
+  "url": {
+    "placeholder": "输入要检查的URL",
+    "check": "检查URL",
+    "checking": "检查中...",
+    "error": {
+      "invalid": {
+        "title": "无效的URL格式",
+        "description": "请输入以'http://'或'https://'开头的有效URL。"
+      },
+      "notAllowed": {
+        "title": "不允许嵌入",
+        "description": "该网站出于安全考虑禁用了iframe嵌入。这通常是为了防止点击劫持和保护用户数据。"
+      }
+    }
+  },
+  "page": {
+    "h1": "免费的在线iframe生成器和嵌入代码制作工具",
+    "label": "IFrame代码生成器",
+    "heading": "生成自定义iframe代码"
+  },
+  "config": {
+    "title": "IFrame配置",
+    "dimensions": "尺寸",
+    "width": "宽度",
+    "height": "高度",
+    "border": "边框",
+    "borderWidth": "边框宽度",
+    "borderStyle": "边框样式",
+    "borderColor": "边框颜色",
+    "borderRadius": "圆角",
+    "sandbox": {
+      "title": "沙箱选项",
+      "options": {
+        "allow-scripts": "允许脚本",
+        "allow-same-origin": "允许同源",
+        "allow-forms": "允许表单",
+        "allow-popups": "允许弹窗",
+        "allow-modals": "允许模态框",
+        "allow-orientation-lock": "允许方向锁定",
+        "allow-pointer-lock": "允许指针锁定",
+        "allow-presentation": "允许演示",
+        "allow-top-navigation": "允许顶部导航"
+      }
+    },
+    "allow": {
+      "title": "允许功能",
+      "options": {
+        "camera": "摄像头",
+        "microphone": "麦克风",
+        "geolocation": "地理位置",
+        "fullscreen": "全屏",
+        "clipboard-write": "剪贴板写入",
+        "clipboard-read": "剪贴板读取"
+      }
+    },
+    "borderStyles": {
+      "none": "无",
+      "solid": "实线",
+      "dashed": "虚线",
+      "dotted": "点线"
+    }
+  },
+  "preview": {
+    "code": "生成的代码",
+    "live": "实时预览",
+    "error": "iframe加载失败"
+  },
+  "info": {
+    "howToUse": {
+      "title": "如何使用Iframe生成器",
+      "steps": [
+        {
+          "title": "输入网站URL",
+          "description": "首先输入您想要嵌入的网站URL。我们的iframe生成器将自动检查该网站是否允许iframe嵌入。"
+        },
+        {
+          "title": "自定义您的Iframe",
+          "description": "确认兼容性后，使用我们直观的界面来自定义您的iframe。调整尺寸、边框和安全设置，以匹配您网站的设计。"
+        },
+        {
+          "title": "预览和测试",
+          "description": "通过我们的实时预览功能查看您的更改。在实施之前测试嵌入内容的外观和行为。"
+        },
+        {
+          "title": "生成和实现",
+          "description": "复制自动生成的优化iframe代码。将其粘贴到您网站HTML中想要显示嵌入内容的位置。"
+        }
+      ]
+    },
+    "features": {
+      "title": "核心功能",
+      "check": {
+        "title": "智能Iframe兼容性检测",
+        "description": "自动检测X-Frame-Options和Content Security Policy头信息，确保网站可以安全地嵌入iframe。立即了解URL是否支持iframe嵌入，节省您的时间。"
+      },
+      "customize": {
+        "title": "高级Iframe自定义",
+        "description": "通过专业的样式选项完全控制iframe外观，包括响应式尺寸、边框自定义和精确的内边距控制。为您的网站创建完美集成的嵌入内容。"
+      },
+      "preview": {
+        "title": "实时预览和代码生成",
+        "description": "即时预览您的iframe配置更改，并获取干净、优化的HTML代码，随时以部署。在实施前实时测试您的嵌入内容。"
+      },
+      "security": {
+        "title": "增强的安全控制",
+        "description": "通过沙箱和权限设置微调iframe安全性。使用行业标准安全功能，在安全嵌入外部内容的同时保护您的网站。"
+      },
+      "responsive": {
+        "title": "响应式设计支持",
+        "description": "使用灵活的宽度和高度设置创建移动友好的iframe。确保您的嵌入内容在所有设备和屏幕尺寸上都完美显示。"
+      },
+      "accessibility": {
+        "title": "无障碍优化",
+        "description": "生成遵循Web无障碍最佳实践的iframe代码。在保持合规标准的同时，使您的嵌入内容对所有用户都可访问。"
+      }
+    },
+    "faq": {
+      "title": "常见问题",
+      "what": {
+        "question": "什么是iframe生成器？",
+        "answer": "iframe生成器是一个专业工具，帮助您创建和自定义HTML iframe元素。它通过提供用户友好的界面来简化将外部内容嵌入到您网站的过程，支持配置iframe属性、安全设置和样式选项。我们的生成器会自动检查兼容性并生成优化的代码，随时可以部署。"
+      },
+      "security": {
+        "question": "在我的网站上使用iframe安全吗？",
+        "answer": "是的，只要配置得当就是安全的。我们的iframe生成器实现了行业标准的安全功能，包括沙箱限制和内容安全策略（CSP）兼容性检查。我们通过沙箱属性和权限控制帮助您配置安全的iframe设置，确保嵌入的内容不会危及您网站的安全。"
+      },
+      "compatibility": {
+        "question": "为什么我无法嵌入某些网站？",
+        "answer": "某些网站通过安全头信息（如X-Frame-Options或内容安全策略CSP）限制iframe嵌入。这是防止点击劫持和其他安全风险的标准安全做法。我们的生成器会自动检测这些限制并立即通知您，节省开发时间。"
+      },
+      "responsive": {
+        "question": "如何使我的iframe适配移动设备？",
+        "answer": "我们的iframe生成器提供响应式设计选项，包括基于百分比的宽度和灵活的高度设置。您可以使用'100%'这样的宽度值使iframe适应其容器，并设置适当的高度值以确保在所有设备上正确显示。我们还支持自定义CSS以实现高级响应式行为。"
+      },
+      "customize": {
+        "question": "有哪些自定义选项？",
+        "answer": "我们的生成器提供全面的自定义选项，包括：响应式尺寸（宽度/高度）、边框样式（宽度、颜色、样式、圆角）、间距控制（外边距、内边距）、背景颜色、沙箱安全选项和功能权限（摄像头、麦克风等）。所有更改都可以在生成最终代码前实时预览。"
+      },
+      "implementation": {
+        "question": "如何实现生成的iframe代码？",
+        "answer": "只需复制生成的HTML代码，并将其粘贴到您网站HTML中想要显示嵌入内容的位置即可。代码已针对性能进行了优化，包含所有必要的属性和样式。如果需要，您还可以使用自己的CSS进行进一步自定义。"
+      }
+    }
+  },
+  "language": {
+    "en": "英文",
+    "zh": "中文"
+  },
+  "metadata": {
+    "title": "IFrame生成器 - 创建自定义嵌入内容",
+    "description": "免费在线iframe生成工具。创建、自定义和嵌入内容，使用我们简单易用的iframe生成器。具有实时预览、响应式设计、安全控制和SEO友好的代码生成功能。",
+    "og": {
+      "title": "IFrame生成器 - 创建自定义嵌入内容",
+      "description": "使用我们的免费在线工具生成安全、可自定义的iframe。具有实时预览、响应式设计和高安全控制功能，实现完美的网站嵌入。"
+    },
+    "twitter": {
+      "title": "IFrame生成器 - 创建自定义嵌入",
+      "description": "生成安全、可自定义iframe的免费在线工具。为网页开发者和内容创作者打造。"
+    }
+  },
+  "footer": {
+    "shareText": "看看这个超棒的IFrame生成工具！",
+    "copyright": "IFrame生成器。保留所有权利。"
+  }
+} 

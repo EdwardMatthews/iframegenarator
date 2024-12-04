@@ -1,0 +1,48 @@
+iframe-generator/
+├── app/
+│   ├── layout.tsx
+│   ├── not-found.tsx
+│   ├── [locale]/
+│   │   ├── layout.tsx
+│   │   ├── page.tsx
+│   │   └── not-found.tsx
+│   └── api/
+│       └── check-iframe/
+│           └── route.ts
+├── components/
+│   ├── url-input/
+│   │   └── index.tsx
+│   ├── iframe-config/
+│   │   └── index.tsx
+│   ├── code-preview/
+│   │   └── index.tsx
+│   ├── live-preview/
+│   │   └── index.tsx
+│   ├── info-section/
+│   │   └── index.tsx
+│   ├── header/
+│   │   └── index.tsx
+│   ├── footer/
+│   │   └── index.tsx
+│   └── icons/
+│       └── index.tsx
+├── styles/
+│   └── globals.css
+├── lib/
+│   ├── client-i18n.ts
+│   └── settings.ts
+├── public/
+│   ├── images/
+│   │   ├── logo.png
+│   │   ├── og-image.jpg
+│   │   └── twitter-image.jpg
+│   ├── favicon.ico
+│   ├── locales/
+│   │   ├── en/
+│   │   │   └── common.json
+│   │   └── zh/
+│   │       └── common.json
+│   ├── robots.txt
+│   └── sitemap.xml
+└── types/
+    └── index.ts 

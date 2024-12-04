@@ -1,0 +1,170 @@
+{
+  "url": {
+    "placeholder": "Enter URL to check",
+    "check": "Check URL",
+    "checking": "Checking...",
+    "error": {
+      "invalid": {
+        "title": "Invalid URL Format",
+        "description": "Please enter a valid URL starting with 'http://' or 'https://'."
+      },
+      "notAllowed": {
+        "title": "Embedding Not Allowed",
+        "description": "This website has disabled iframe embedding due to security restrictions. This is often done to prevent clickjacking and protect user data."
+      }
+    }
+  },
+  "page": {
+    "h1": "Free Online IFrame Generator and Embed Code Maker",
+    "label": "IFrame Generator Tool",
+    "heading": "Generate Custom IFrame Code"
+  },
+  "config": {
+    "title": "IFrame Configuration",
+    "dimensions": "Dimensions",
+    "width": "Width",
+    "height": "Height",
+    "border": "Border",
+    "borderWidth": "Border Width",
+    "borderStyle": "Border Style",
+    "borderColor": "Border Color",
+    "borderRadius": "Border Radius",
+    "sandbox": {
+      "title": "Sandbox Options",
+      "options": {
+        "allow-scripts": "Allow Scripts",
+        "allow-same-origin": "Allow Same Origin",
+        "allow-forms": "Allow Forms",
+        "allow-popups": "Allow Popups",
+        "allow-modals": "Allow Modals",
+        "allow-orientation-lock": "Allow Orientation Lock",
+        "allow-pointer-lock": "Allow Pointer Lock",
+        "allow-presentation": "Allow Presentation",
+        "allow-top-navigation": "Allow Top Navigation"
+      }
+    },
+    "allow": {
+      "title": "Allow Features",
+      "options": {
+        "camera": "Camera",
+        "microphone": "Microphone",
+        "geolocation": "Geolocation",
+        "fullscreen": "Fullscreen",
+        "clipboard-write": "Clipboard Write",
+        "clipboard-read": "Clipboard Read"
+      }
+    },
+    "borderStyles": {
+      "none": "None",
+      "solid": "Solid",
+      "dashed": "Dashed",
+      "dotted": "Dotted"
+    }
+  },
+  "preview": {
+    "code": "Generated Code",
+    "live": "Live Preview",
+    "error": "Failed to load iframe"
+  },
+  "info": {
+    "howToUse": {
+      "title": "How to Use Iframe Generator",
+      "steps": [
+        {
+          "title": "Enter URL to Generate IFrame",
+          "description": "Start by entering the website URL you want to embed. Our iframe generator will automatically verify compatibility and prepare to create your custom iframe code."
+        },
+        {
+          "title": "Customize Your Embed Code",
+          "description": "Use our iframe maker interface to customize your embed. Configure dimensions, borders, and security settings to generate the perfect iframe code for your needs."
+        },
+        {
+          "title": "Preview and Test",
+          "description": "See your changes in real-time with our live preview feature. Test how your embedded content looks and behaves before implementation."
+        },
+        {
+          "title": "Generate and Implement",
+          "description": "Copy the automatically generated, optimized iframe code. Paste it into your website's HTML where you want the embedded content to appear."
+        }
+      ]
+    },
+    "features": {
+      "title": "Professional IFrame Generator Features",
+      "check": {
+        "title": "Generate Secure IFrame Code",
+        "description": "Our iframe generator automatically checks compatibility and creates secure embed codes. Generate iframe code that complies with modern security standards and best practices for website embedding."
+      },
+      "customize": {
+        "title": "Create Custom IFrames",
+        "description": "Use our professional iframe maker to generate customized embed codes. Adjust dimensions, styling, and security settings to create the perfect iframe for your website."
+      },
+      "preview": {
+        "title": "Live Preview & Code Generation",
+        "description": "Instantly preview your iframe configuration changes and get clean, optimized HTML code ready for deployment. Test your embedded content in real-time before implementing."
+      },
+      "security": {
+        "title": "Enhanced Security Controls",
+        "description": "Fine-tune iframe security with sandbox and permission settings. Protect your website while safely embedding external content using industry-standard security features."
+      },
+      "responsive": {
+        "title": "Responsive Design Support",
+        "description": "Create mobile-friendly iframes with flexible width and height settings. Ensure your embedded content looks perfect across all devices and screen sizes."
+      },
+      "accessibility": {
+        "title": "Accessibility Optimized",
+        "description": "Generate iframe code that follows web accessibility best practices. Make your embedded content accessible to all users while maintaining compliance standards."
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "what": {
+        "question": "What is an iframe generator and how does it work?",
+        "answer": "An iframe generator is a specialized tool that helps you create and customize HTML iframe elements. Our iframe generator simplifies the process of generating embed codes by providing an intuitive interface for configuring iframe attributes, security settings, and styling options. Simply enter your URL, customize the settings using our iframe maker tools, and get instant, optimized code ready for your website."
+      },
+      "security": {
+        "question": "How does the iframe generator ensure security?",
+        "answer": "Our iframe generator implements comprehensive security features including sandbox restrictions and Content Security Policy (CSP) compatibility checks. When you generate iframe code, we automatically configure secure settings through sandbox attributes and permission controls, ensuring your embedded content is both safe and functional."
+      },
+      "compatibility": {
+        "question": "Why can't I embed certain websites?",
+        "answer": "Some websites restrict iframe embedding through security headers like X-Frame-Options or Content Security Policy (CSP). This is a standard security practice to prevent clickjacking and other security risks. Our generator automatically detects these restrictions and notifies you immediately, saving time in development."
+      },
+      "responsive": {
+        "question": "How do I make my iframes mobile-friendly?",
+        "answer": "Our iframe generator provides responsive design options including percentage-based widths and flexible height settings. You can use values like '100%' for width to make the iframe adapt to its container, and set appropriate height values to ensure proper display across all devices. We also support custom CSS for advanced responsive behaviors."
+      },
+      "customize": {
+        "question": "What customization options are available?",
+        "answer": "Our generator offers comprehensive customization options including: responsive dimensions (width/height), border styling (width, color, style, radius), spacing controls (margin, padding), background colors, sandbox security options, and feature permissions (camera, microphone, etc.). All changes are previewed in real-time before generating the final code."
+      },
+      "implementation": {
+        "question": "How do I implement the generated iframe code?",
+        "answer": "Simply copy the generated HTML code and paste it into your website's HTML where you want the embedded content to appear. The code is optimized for performance and includes all necessary attributes and styles. You can also customize the code further using your own CSS if needed."
+      }
+    }
+  },
+  "site": {
+    "title": "IFrame Generator",
+    "description": "Generate and customize iframe code with live preview"
+  },
+  "language": {
+    "en": "English",
+    "zh": "Chinese"
+  },
+  "metadata": {
+    "title": "IFrame Generator - Create Custom Embeds for Your Website",
+    "description": "Free online iframe generator tool. Create, customize, and embed content with our easy-to-use iframe generator. Features live preview, responsive design, security controls, and SEO-friendly code generation.",
+    "og": {
+      "title": "IFrame Generator - Create Custom Embeds for Your Website",
+      "description": "Generate secure, customizable iframes with our free online tool. Features live preview, responsive design, and advanced security controls for perfect website embedding."
+    },
+    "twitter": {
+      "title": "IFrame Generator - Create Custom Embeds",
+      "description": "Free online tool to generate secure, customizable iframes. Perfect for web developers and content creators."
+    }
+  },
+  "footer": {
+    "shareText": "Check out this awesome IFrame Generator tool!",
+    "copyright": "IFrame Generator. All rights reserved."
+  }
+} 
