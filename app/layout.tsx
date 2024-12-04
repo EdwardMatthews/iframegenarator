@@ -5,7 +5,7 @@ import '@/styles/globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://your-domain.com'),
+  metadataBase: new URL('https://iframegenerator.pro'),
   title: {
     default: 'Free IFrame Generator & Code Maker | Create Embed Codes Online',
     template: '%s | Best IFrame Generator Tool'
