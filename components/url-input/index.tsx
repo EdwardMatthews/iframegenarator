@@ -5,7 +5,7 @@ import { useTranslation } from '@/lib/client-i18n';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Locale } from '@/types';
 import { 
-  HiOutlineMagnifyingGlass,
+  HiOutlineShieldCheck,
   HiOutlineArrowPath,
   HiOutlineShieldExclamation,
   HiOutlineXCircle
@@ -113,7 +113,7 @@ export default function UrlInput({ url, setUrl, setIsValidUrl, locale }: UrlInpu
                 : 'border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-transparent'
               }`}
           />
-          <HiOutlineMagnifyingGlass 
+          <HiOutlineShieldCheck 
             className={`absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 
               ${error ? 'text-red-400' : 'text-gray-400'}`} 
           />
@@ -126,7 +126,7 @@ export default function UrlInput({ url, setUrl, setIsValidUrl, locale }: UrlInpu
           {isChecking ? (
             <HiOutlineArrowPath className="w-5 h-5 animate-spin" />
           ) : (
-            <HiOutlineMagnifyingGlass className="w-5 h-5" />
+            <HiOutlineShieldCheck className="w-5 h-5" />
           )}
           {isChecking ? t('url.checking') : t('url.check')}
         </button>

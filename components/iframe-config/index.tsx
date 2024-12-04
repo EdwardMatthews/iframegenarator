@@ -142,7 +142,9 @@ export default function IframeConfig({ config, setConfig, locale }: IframeConfig
 
       {/* Sandbox 选项 */}
       <div className="space-y-4">
-        <h3 className="text-sm font-medium text-gray-700">{t('config.sandbox')}</h3>
+        <h3 className="text-sm font-medium text-gray-700">
+          {t('config.sandbox.title')}
+        </h3>
         <div className="grid grid-cols-2 gap-4">
           {sandboxOptions.map((option) => (
             <div key={option} className="flex items-center">
@@ -164,7 +166,9 @@ export default function IframeConfig({ config, setConfig, locale }: IframeConfig
                   } inline-block h-4 w-4 transform rounded-full bg-white transition-transform`}
                 />
               </Switch>
-              <span className="text-sm text-gray-600">{t(`config.sandbox.options.${option}`)}</span>
+              <span className="text-sm text-gray-600">
+                {t(`config.sandbox.options.${option}`)}
+              </span>
             </div>
           ))}
         </div>
@@ -172,7 +176,9 @@ export default function IframeConfig({ config, setConfig, locale }: IframeConfig
 
       {/* Allow 选项 */}
       <div className="space-y-4">
-        <h3 className="text-sm font-medium text-gray-700">{t('config.allow')}</h3>
+        <h3 className="text-sm font-medium text-gray-700">
+          {t('config.allow.title')}
+        </h3>
         <div className="grid grid-cols-2 gap-4">
           {allowOptions.map((option) => (
             <div key={option} className="flex items-center">
