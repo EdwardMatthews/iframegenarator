@@ -46,7 +46,9 @@
         "allow-orientation-lock": "Allow Orientation Lock",
         "allow-pointer-lock": "Allow Pointer Lock",
         "allow-presentation": "Allow Presentation",
-        "allow-top-navigation": "Allow Top Navigation"
+        "allow-top-navigation": "Allow Top Navigation",
+        "allow-downloads": "Allow Downloads",
+        "allow-storage-access-by-user-activation": "Allow Storage Access"
       }
     },
     "allow": {
@@ -54,10 +56,13 @@
       "options": {
         "camera": "Camera",
         "microphone": "Microphone",
+        "display-capture": "Display Capture",
         "geolocation": "Geolocation",
         "fullscreen": "Fullscreen",
+        "autoplay": "Autoplay",
         "clipboard-write": "Clipboard Write",
-        "clipboard-read": "Clipboard Read"
+        "clipboard-read": "Clipboard Read",
+        "payment": "Payment"
       }
     },
     "borderStyles": {

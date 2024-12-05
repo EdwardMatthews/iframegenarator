@@ -19,7 +19,7 @@ export default function HomePage() {
   const [isValidUrl, setIsValidUrl] = useState(false);
   const [iframeConfig, setIframeConfig] = useState<IframeConfigType>({
     width: '100%',
-    height: '600px',
+    height: '750px',
     padding: '0',
     margin: '0',
     borderWidth: '1px',

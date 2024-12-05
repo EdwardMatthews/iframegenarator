@@ -45,15 +45,20 @@ export default function IframeConfig({ config, setConfig, locale }: IframeConfig
     'allow-pointer-lock',
     'allow-presentation',
     'allow-top-navigation',
+    'allow-downloads',
+    'allow-storage-access-by-user-activation',
   ];
 
   const allowOptions = [
     'camera',
     'microphone',
+    'display-capture',
     'geolocation',
     'fullscreen',
+    'autoplay',
     'clipboard-write',
     'clipboard-read',
+    'payment',
   ];
 
   const updateConfig = (key: string, value: string | string[]) => {
