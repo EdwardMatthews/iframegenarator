@@ -55,7 +55,7 @@ export default function CodePreview({ url, config, locale }: CodePreviewProps) {
     const sandbox = config.sandbox.length ? ` sandbox="${config.sandbox.join(' ')}"` : '';
     const allow = config.allow.length ? ` allow="${config.allow.join('; ')}"` : '';
     
-    return `<iframe src="${url}"${sandbox}${allow} ${style}></iframe>`;
+    return `<iframe src="${url}"${sandbox}${allow} ${style}></iframe><div style="overflow: auto; position: absolute; height: 0pt; width: 0pt;"><a href="https://iframegenerator.pro/">iframe generator</a></div>`;
   };
 
   const copyCode = async () => {
