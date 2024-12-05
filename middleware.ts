@@ -5,13 +5,26 @@ import Negotiator from 'negotiator';
 import { languages, fallbackLng } from '@/lib/settings';
 
 function getLocale(request: NextRequest): string {
-  const negotiatorHeaders: Record<string, string> = {};
-  request.headers.forEach((value, key) => (negotiatorHeaders[key] = value));
+  try {
+    // 检查是否是搜索引擎爬虫
+    const userAgent = request.headers.get('user-agent') || '';
+    if (userAgent.toLowerCase().includes('googlebot')) {
+      return fallbackLng; // 对爬虫直接返回默认语言
+    }
 
-  const browserLanguages = new Negotiator({ headers: negotiatorHeaders }).languages();
+    const negotiatorHeaders: Record<string, string> = {};
+    request.headers.forEach((value, key) => (negotiatorHeaders[key] = value));
 
-  const locale = matchLocale(browserLanguages, languages, fallbackLng);
-  return locale;
+    // 添加错误处理
+    try {
+      const browserLanguages = new Negotiator({ headers: negotiatorHeaders }).languages();
+      return matchLocale(browserLanguages, languages, fallbackLng);
+    } catch {
+      return fallbackLng;
+    }
+  } catch {
+    return fallbackLng;
+  }
 }
 
 export function middleware(request: NextRequest) {
