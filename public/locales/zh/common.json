@@ -102,7 +102,7 @@
       "title": "核心功能",
       "check": {
         "title": "智能Iframe兼容性检测",
-        "description": "自动检测X-Frame-Options和Content Security Policy头信息，确保网站可以安全地嵌入iframe。立即了解URL是否支持iframe嵌入，节省您的时间。"
+        "description": "自动检测X-Frame-Options和Content Security Policy头信息，确保网站可以安全地嵌入iframe。立即了解URL是���支持iframe嵌入，节省您的时间。"
       },
       "customize": {
         "title": "高级Iframe自定义",
@@ -140,7 +140,7 @@
         "answer": "某些网站通过安全头信息（如X-Frame-Options或内容安全策略CSP）限制iframe嵌入。这是防止点击劫持和其他安全风险的标准安全做法。我们的生成器会自动检测这些限制并立即通知您，节省开发时间。"
       },
       "responsive": {
-        "question": "如何使我的iframe适配移动设备？",
+        "question": "如何使我的iframe适配移��设备？",
         "answer": "我们的iframe生成器提供响应式设计选项，包括基于百分比的宽度和灵活的高度设置。您可以使用'100%'这样的宽度值使iframe适应其容器，并设置适当的高度值以确保在所有设备上正确显示。我们还支持自定义CSS以实现高级响应式行为。"
       },
       "customize": {
@@ -171,6 +171,26 @@
   },
   "footer": {
     "shareText": "看看这个超棒的IFrame生成工具！",
-    "copyright": "IFrame生成器。保留所有权利。"
+    "copyright": "IFrame生成器。保留所有权利。",
+    "about": {
+      "description": "IFrame生成器是一个专业工具，帮助您创建和自定义HTML iframe元素。提供安全、响应式的嵌入代码，支持实时预览。"
+    },
+    "navigation": {
+      "title": "导航",
+      "home": "首页",
+      "features": "功能",
+      "howToUse": "使用指南",
+      "faq": "常见问题"
+    },
+    "tools": {
+      "title": "实用工具",
+      "links": [
+        {
+          "name": "DDS转PNG工具",
+          "url": "https://ddstopng.pro/",
+          "description": "将DDS格式转换为PNG格式"
+        }
+      ]
+    }
   }
 } 

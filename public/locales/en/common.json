@@ -176,6 +176,26 @@
   },
   "footer": {
     "shareText": "Check out this awesome IFrame Generator tool!",
-    "copyright": "IFrame Generator. All rights reserved."
+    "copyright": "IFrame Generator. All rights reserved.",
+    "about": {
+      "description": "IFrame Generator is a professional tool that helps you create and customize HTML iframe elements. Generate secure, responsive embed codes with live preview."
+    },
+    "navigation": {
+      "title": "Navigation",
+      "home": "Home",
+      "features": "Features",
+      "howToUse": "How to Use",
+      "faq": "FAQ"
+    },
+    "tools": {
+      "title": "Useful Tools",
+      "links": [
+        {
+          "name": "DDS to PNG",
+          "url": "https://ddstopng.pro/",
+          "description": "Convert DDS to PNG"
+        }
+      ]
+    }
   }
 } 

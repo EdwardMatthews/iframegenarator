@@ -40,7 +40,7 @@ export default function HomePage() {
           animate={{ opacity: 1, y: 0 }}
           className="space-y-12"
         >
-          <section aria-label={t('page.label')}>
+          <section aria-label={t('page.label')} id="features-section">
             <h2 className="text-2xl font-bold mb-6">{t('page.heading')}</h2>
             <UrlInput 
               url={url} 

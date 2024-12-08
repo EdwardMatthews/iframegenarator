@@ -129,15 +129,42 @@ export default function InfoSection({ locale }: InfoSectionProps) {
   ];
 
   return (
-    <motion.div
-      initial={{ opacity: 0, y: 20 }}
-      animate={{ opacity: 1, y: 0 }}
-      className="space-y-12"
-    >
-      {/* How to Use 部分 */}
-      <section>
-        <div className="text-center mb-12">
-          <h2 className="text-2xl font-bold text-gray-900 mb-4">{t('info.howToUse.title')}</h2>
+    <>
+      {/* Features Section */}
+      <section id="features-section" className="space-y-8">
+        <div className="text-center">
+          <h2 className="text-3xl font-bold text-gray-900">
+            {t('info.features.title')}
+          </h2>
+          <div className="w-20 h-1 bg-blue-500 mx-auto rounded-full"></div>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {features.map((feature, index) => (
+            <motion.div
+              key={index}
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: index * 0.1 }}
+              className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-all hover:border-blue-100 group"
+            >
+              <div className="flex flex-col items-center text-center">
+                <div className="transform group-hover:scale-110 transition-transform">
+                  {feature.icon}
+                </div>
+                <h3 className="text-lg font-semibold text-gray-900 mb-3">{feature.title}</h3>
+                <p className="text-gray-600 leading-relaxed">{feature.description}</p>
+              </div>
+            </motion.div>
+          ))}
+        </div>
+      </section>
+
+      {/* How to Use Section */}
+      <section id="how-to-use-section" className="space-y-8">
+        <div className="text-center">
+          <h2 className="text-3xl font-bold text-gray-900">
+            {t('info.howToUse.title')}
+          </h2>
           <div className="w-20 h-1 bg-blue-500 mx-auto rounded-full"></div>
         </div>
         <div className="max-w-5xl mx-auto">
@@ -168,40 +195,10 @@ export default function InfoSection({ locale }: InfoSectionProps) {
         </div>
       </section>
 
-      {/* 特性介绍 */}
-      <section>
-        <div className="text-center mb-12">
-          <h2 className="text-2xl font-bold text-gray-900 mb-4">{t('info.features.title')}</h2>
-          <div className="w-20 h-1 bg-blue-500 mx-auto rounded-full"></div>
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {features.map((feature, index) => (
-            <motion.div
-              key={index}
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: index * 0.1 }}
-              className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-all hover:border-blue-100 group"
-            >
-              <div className="flex flex-col items-center text-center">
-                <div className="transform group-hover:scale-110 transition-transform">
-                  {feature.icon}
-                </div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-3">{feature.title}</h3>
-                <p className="text-gray-600 leading-relaxed">{feature.description}</p>
-              </div>
-            </motion.div>
-          ))}
-        </div>
-      </section>
-
-      {/* FAQ */}
-      <section>
-        <div className="text-center mb-12">
-          <h2 className="text-2xl font-bold text-gray-900 mb-4">
-            <span className="inline-block mr-2">
-              <HiOutlineQuestionMarkCircle className="w-8 h-8 text-blue-500 inline-block" />
-            </span>
+      {/* FAQ Section */}
+      <section id="faq-section" className="space-y-8">
+        <div className="text-center">
+          <h2 className="text-3xl font-bold text-gray-900">
             {t('info.faq.title')}
           </h2>
           <div className="w-20 h-1 bg-blue-500 mx-auto rounded-full"></div>
@@ -236,6 +233,6 @@ export default function InfoSection({ locale }: InfoSectionProps) {
           ))}
         </div>
       </section>
-    </motion.div>
+    </>
   );
 } 
