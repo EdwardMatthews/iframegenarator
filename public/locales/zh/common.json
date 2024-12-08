@@ -102,7 +102,7 @@
       "title": "核心功能",
       "check": {
         "title": "智能Iframe兼容性检测",
-        "description": "自动检测X-Frame-Options和Content Security Policy头信息，确保网站可以安全地嵌入iframe。立即了解URL是���支持iframe嵌入，节省您的时间。"
+        "description": "自动检测X-Frame-Options和Content Security Policy头信息，确保网站可以安全地嵌入iframe。立即了解URL是支持iframe嵌入，节省您的时间。"
       },
       "customize": {
         "title": "高级Iframe自定义",
@@ -140,7 +140,7 @@
         "answer": "某些网站通过安全头信息（如X-Frame-Options或内容安全策略CSP）限制iframe嵌入。这是防止点击劫持和其他安全风险的标准安全做法。我们的生成器会自动检测这些限制并立即通知您，节省开发时间。"
       },
       "responsive": {
-        "question": "如何使我的iframe适配移��设备？",
+        "question": "如何使我的iframe适配移动设备？",
         "answer": "我们的iframe生成器提供响应式设计选项，包括基于百分比的宽度和灵活的高度设置。您可以使用'100%'这样的宽度值使iframe适应其容器，并设置适当的高度值以确保在所有设备上正确显示。我们还支持自定义CSS以实现高级响应式行为。"
       },
       "customize": {
@@ -158,15 +158,35 @@
     "zh": "中文"
   },
   "metadata": {
-    "title": "IFrame生成器 - 创建自定义嵌入内容",
-    "description": "免费在线iframe生成工具。创建、自定义和嵌入内容，使用我们简单易用的iframe生成器。具有实时预览、响应式设计、安全控制和SEO友好的代码生成功能。",
+    "title": {
+      "default": "免费IFrame生成器和代码制作工具 | 在线创建嵌入代码",
+      "template": "%s | 最佳IFrame生成工具"
+    },
+    "description": "使用我们免费的在线iframe生成器创建和自定义iframe。生成安全的嵌入代码，创建响应式iframe，并自定义嵌入设置。最佳的安全网站嵌入iframe制作工具。",
+    "keywords": [
+      "iframe生成器",
+      "iframe代码生成器",
+      "生成iframe",
+      "iframe嵌入代码",
+      "嵌入代码生成器",
+      "iframe制作工具",
+      "创建iframe",
+      "网站嵌入代码生成器",
+      "响应式iframe生成器",
+      "安全iframe生成器"
+    ],
+    "authors": "IFrame生成器团队",
+    "creator": "IFrame生成器",
+    "publisher": "IFrame生成器",
     "og": {
-      "title": "IFrame生成器 - 创建自定义嵌入内容",
-      "description": "使用我们的免费在线工具生成安全、可自定义的iframe。具有实时预览、响应式设计和高安全控制功能，实现完美的网站嵌入。"
+      "title": "免费在线IFrame生成器和嵌入代码制作工具",
+      "description": "使用我们的免费在线工具即时生成安全、可自定义的iframe。创建响应式嵌入代码。为网页开发者和内容创作者打造的完美工具。",
+      "siteName": "IFrame生成器"
     },
     "twitter": {
       "title": "IFrame生成器 - 创建自定义嵌入",
-      "description": "生成安全、可自定义iframe的免费在线工具。为网页开发者和内容创作者打造。"
+      "description": "生成安全、可自定义iframe的免费在线工具。为网页开发者和内容创作者打造。",
+      "creator": "@iframegenerator"
     }
   },
   "footer": {

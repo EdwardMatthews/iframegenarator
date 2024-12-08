@@ -163,15 +163,35 @@
     "zh": "Chinese"
   },
   "metadata": {
-    "title": "IFrame Generator - Create Custom Embeds for Your Website",
-    "description": "Free online iframe generator tool. Create, customize, and embed content with our easy-to-use iframe generator. Features live preview, responsive design, security controls, and SEO-friendly code generation.",
+    "title": {
+      "default": "Free IFrame Generator & Code Maker | Create Embed Codes Online",
+      "template": "%s | Best IFrame Generator Tool"
+    },
+    "description": "Create and customize iframes with our free online iframe generator. Generate secure embed codes, create responsive iframes, and customize embed settings. The best iframe maker for secure website embedding.",
+    "keywords": [
+      "iframe generator",
+      "iframe code generator", 
+      "generate iframe",
+      "iframe embed code",
+      "embed code generator",
+      "iframe maker",
+      "create iframe",
+      "website embed code generator",
+      "responsive iframe generator",
+      "secure iframe generator"
+    ],
+    "authors": "IFrame Generator Team",
+    "creator": "IFrame Generator",
+    "publisher": "IFrame Generator",
     "og": {
-      "title": "IFrame Generator - Create Custom Embeds for Your Website",
-      "description": "Generate secure, customizable iframes with our free online tool. Features live preview, responsive design, and advanced security controls for perfect website embedding."
+      "title": "Free Online IFrame Generator & Embed Code Maker",
+      "description": "Generate secure, customizable iframes instantly. Create responsive embed codes with our free iframe generator tool. Perfect for web developers and content creators.",
+      "siteName": "IFrame Generator"
     },
     "twitter": {
       "title": "IFrame Generator - Create Custom Embeds",
-      "description": "Free online tool to generate secure, customizable iframes. Perfect for web developers and content creators."
+      "description": "Free online tool to generate secure, customizable iframes. Perfect for web developers and content creators.",
+      "creator": "@iframegenerator"
     }
   },
   "footer": {
