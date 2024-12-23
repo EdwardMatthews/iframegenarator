@@ -212,5 +212,14 @@
         }
       ]
     }
+  },
+  "languageDialog": {
+    "title": "语言偏好",
+    "description": "我们检测到您的首选语言是{{language}}。是否要切换到该语言?",
+    "stayInEnglish": "保持中文",
+    "switchLanguage": "切换到 {{language}}"
+  },
+  "header": {
+    "installExtension": "添加到Chrome"
   }
 } 

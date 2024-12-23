@@ -217,5 +217,14 @@
         }
       ]
     }
+  },
+  "languageDialog": {
+    "title": "Language Preference",
+    "description": "We detected that your preferred language is {{language}}. Would you like to switch to that language?",
+    "stayInEnglish": "Stay in English",
+    "switchLanguage": "Switch to {{language}}"
+  },
+  "header": {
+    "installExtension": "Add to Chrome"
   }
 } 

@@ -29,6 +29,12 @@ function getLocale(request: NextRequest): string {
 
 export function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname;
+
+  // 如果是根路径，不做重定向
+  if (pathname === '/') {
+    return;
+  }
+  
   const pathnameIsMissingLocale = languages.every(
     (locale) => !pathname.startsWith(`/${locale}/`) && pathname !== `/${locale}`
   );
