@@ -129,10 +129,10 @@ export default function InfoSection({ locale }: InfoSectionProps) {
   ];
 
   return (
-    <>
+    <div className="space-y-24">
       {/* Features Section */}
-      <section id="features-section" className="space-y-8">
-        <div className="text-center">
+      <section id="features-section" className="space-y-12">
+        <div className="text-center space-y-4">
           <h2 className="text-3xl font-bold text-gray-900">
             {t('info.features.title')}
           </h2>
@@ -160,8 +160,8 @@ export default function InfoSection({ locale }: InfoSectionProps) {
       </section>
 
       {/* How to Use Section */}
-      <section id="how-to-use-section" className="space-y-8">
-        <div className="text-center">
+      <section id="how-to-use-section" className="space-y-12">
+        <div className="text-center space-y-4">
           <h2 className="text-3xl font-bold text-gray-900">
             {t('info.howToUse.title')}
           </h2>
@@ -196,8 +196,8 @@ export default function InfoSection({ locale }: InfoSectionProps) {
       </section>
 
       {/* FAQ Section */}
-      <section id="faq-section" className="space-y-8">
-        <div className="text-center">
+      <section id="faq-section" className="space-y-12">
+        <div className="text-center space-y-4">
           <h2 className="text-3xl font-bold text-gray-900">
             {t('info.faq.title')}
           </h2>
@@ -233,6 +233,6 @@ export default function InfoSection({ locale }: InfoSectionProps) {
           ))}
         </div>
       </section>
-    </>
+    </div>
   );
 } 
