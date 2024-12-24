@@ -209,13 +209,11 @@
     },
     "tools": {
       "title": "Useful Tools",
-      "links": [
-        {
-          "name": "DDS to PNG",
-          "url": "https://ddstopng.pro/",
-          "description": "Convert DDS to PNG"
-        }
-      ]
+      "ddsToPng": {
+        "name": "DDS to PNG",
+        "url": "https://www.ddstopng.pro/",
+        "description": "Convert DDS to PNG"
+      }
     }
   },
   "languageDialog": {

@@ -1,6 +1,4 @@
-'use client';
-
-import { useTranslation } from '@/lib/client-i18n';
+import { getTranslations, TranslationFunction } from '@/lib/server-i18n';
 import { Locale } from '@/types';
 import {
   FaTwitter,
@@ -8,7 +6,6 @@ import {
   FaLinkedin,
   FaGithub
 } from 'react-icons/fa';
-import { useState, useEffect } from 'react';
 
 interface FooterProps {
   locale: Locale;
@@ -20,33 +17,28 @@ interface ToolLink {
   description: string;
 }
 
-export default function Footer({ locale }: FooterProps) {
-  const { t } = useTranslation(locale);
-  const [currentUrl, setCurrentUrl] = useState('');
-  const [shareText, setShareText] = useState('');
-
-  useEffect(() => {
-    setCurrentUrl("https://iframegenerator.pro/");
-    setShareText(t('footer.shareText'));
-  }, [t]);
+export default async function Footer({ locale }: FooterProps) {
+  const t: TranslationFunction = await getTranslations(locale);
+  const currentUrl = "https://www.iframegenerator.pro/";
+  const shareText = t('footer.shareText');
 
   const socialLinks = [
     {
       name: 'Twitter',
       icon: <FaTwitter className="w-5 h-5" />,
-      getHref: () => `https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(currentUrl)}`,
+      href: `https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(currentUrl)}`,
       color: 'hover:text-[#1DA1F2]'
     },
     {
       name: 'Facebook',
       icon: <FaFacebook className="w-5 h-5" />,
-      getHref: () => `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(currentUrl)}`,
+      href: `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(currentUrl)}`,
       color: 'hover:text-[#4267B2]'
     },
     {
       name: 'LinkedIn',
       icon: <FaLinkedin className="w-5 h-5" />,
-      getHref: () => `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(currentUrl)}`,
+      href: `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(currentUrl)}`,
       color: 'hover:text-[#0077B5]'
     },
     {
@@ -64,12 +56,13 @@ export default function Footer({ locale }: FooterProps) {
     { key: 'faq', href: '#faq-section' }
   ];
 
-  // 获取工具链接数组
-  const toolLinks = t('footer.tools.links', { returnObjects: true }) as ToolLink[];
-
-  if (!currentUrl) {
-    return null;
-  }
+  const toolLinks: ToolLink[] = [
+    {
+      name: t('footer.tools.ddsToPng.name'),
+      url: t('footer.tools.ddsToPng.url'),
+      description: t('footer.tools.ddsToPng.description')
+    }
+  ];
 
   return (
     <footer className="bg-white border-t border-gray-100 py-12 mt-12">
@@ -135,7 +128,7 @@ export default function Footer({ locale }: FooterProps) {
               {socialLinks.map((link) => (
                 <a
                   key={link.name}
-                  href={link.href || link.getHref?.()}
+                  href={link.href}
                   target="_blank"
                   rel="noopener noreferrer"
                   className={`text-gray-500 transition-colors ${link.color} hover:scale-110 transform`}
@@ -148,7 +141,7 @@ export default function Footer({ locale }: FooterProps) {
           </div>
         </div>
 
-        {/* 版权��息 */}
+        {/* 版权信息 */}
         <div className="pt-8 mt-8 border-t border-gray-100">
           <p className="text-sm text-center text-gray-500">
             © {new Date().getFullYear()} {t('footer.copyright')}
