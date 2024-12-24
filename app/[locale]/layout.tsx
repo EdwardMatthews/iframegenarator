@@ -19,7 +19,6 @@ export async function generateMetadata({ params: { locale } }: { params: { local
       template: metadata.title.template
     },
     description: metadata.description,
-    keywords: metadata.keywords,
     authors: [{ name: metadata.authors }],
     creator: metadata.creator,
     publisher: metadata.publisher,
