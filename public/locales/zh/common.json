@@ -204,13 +204,11 @@
     },
     "tools": {
       "title": "实用工具",
-      "links": [
-        {
-          "name": "DDS转PNG工具",
-          "url": "https://ddstopng.pro/",
-          "description": "将DDS格式转换为PNG格式"
-        }
-      ]
+      "ddsToPng": {
+        "name": "DDS转PNG工具",
+        "url": "https://www.ddstopng.pro/",
+        "description": "将DDS格式转换为PNG格式"
+      }
     }
   },
   "languageDialog": {
