@@ -6,18 +6,18 @@ const inter = Inter({ subsets: ['latin'] });
 
 // 只为根路径 / 提供基本的 metadata
 export const metadata: Metadata = {
-  metadataBase: new URL('https://iframegenerator.pro/'),
+  metadataBase: new URL('https://www.iframegenerator.pro/'),
   title: 'Free IFrame Generator & Code Maker | Create Embed Codes Online',
   description: 'Create and customize iframes with our free online iframe generator. Generate secure embed codes, create responsive iframes, and customize embed settings. The best iframe maker for secure website embedding.',
   openGraph: {
     type: 'website',
-    url: 'https://iframegenerator.pro/',
+    url: 'https://www.iframegenerator.pro/',
   },
   alternates: {
-    canonical: 'https://iframegenerator.pro/',
+    canonical: 'https://www.iframegenerator.pro/',
     languages: {
-      'en': 'https://iframegenerator.pro/en',
-      'zh': 'https://iframegenerator.pro/zh'
+      'en': 'https://www.iframegenerator.pro/en',
+      'zh': 'https://www.iframegenerator.pro/zh'
     }
   }
 };

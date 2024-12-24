@@ -13,7 +13,7 @@ export async function generateMetadata({ params: { locale } }: { params: { local
   const metadata = translation.metadata;
 
   return {
-    metadataBase: new URL('https://iframegenerator.pro'),
+    metadataBase: new URL('https://www.iframegenerator.pro'),
     title: {
       default: metadata.title.default,
       template: metadata.title.template
