@@ -18,8 +18,13 @@ export default function LanguageSwitcher({ locale }: LanguageSwitcherProps) {
   const handleChange = (newLocale: string) => {
     // 从当前路径中移除当前语言代码，并添加新的语言代码
     const currentPathWithoutLocale = pathname.replace(`/${locale}`, '');
-    const newPath = `/${newLocale}${currentPathWithoutLocale}`;
-    router.push(newPath);
+    if(newLocale === "en") {
+      const newPath = `/${currentPathWithoutLocale}`;
+      router.push(newPath);
+    } else {
+      const newPath = `/${newLocale}${currentPathWithoutLocale}`;
+      router.push(newPath);
+    }
   };
 
   return (
