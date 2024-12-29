@@ -196,6 +196,11 @@
         "name": "DDS转PNG工具",
         "url": "https://www.ddstopng.pro/",
         "description": "将DDS格式转换为PNG格式"
+      },
+      "webpToPdf": {
+        "name": "WEBP转PDF工具",
+        "url": "https://webptopdf.pro/",
+        "description": "将WebP格式转换为PDF格式"
       }
     }
   },
