@@ -201,6 +201,11 @@
         "name": "DDS to PNG",
         "url": "https://www.ddstopng.pro/",
         "description": "Convert DDS to PNG"
+      },
+      "webpToPdf": {
+        "name": "WEBP to PDF",
+        "url": "https://webptopdf.pro/",
+        "description": "Convert WebP to PDF"
       }
     }
   },
