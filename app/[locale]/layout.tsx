@@ -64,7 +64,7 @@ export async function generateMetadata({ params: { locale } }: { params: { local
       },
     },
     verification: {
-      google: 'your-google-verification-code',
+      google: '7mDEZmv48BopWb7DXy2L56EF5u1ZrXkojc5DcmyiNec',
     },
     icons: {
       icon: '/favicon.ico',

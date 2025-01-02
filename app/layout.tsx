@@ -19,6 +19,9 @@ export const metadata: Metadata = {
       'en': 'https://www.iframegenerator.pro/',
       'zh': 'https://www.iframegenerator.pro/zh'
     }
+  },
+  verification: {
+    google: '7mDEZmv48BopWb7DXy2L56EF5u1ZrXkojc5DcmyiNec',
   }
 };
 
@@ -28,7 +31,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html suppressHydrationWarning>
+    <html suppressHydrationWarning lang="en">
       <body suppressHydrationWarning className={inter.className}>
         {children}
       </body>
