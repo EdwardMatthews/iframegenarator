@@ -14,10 +14,7 @@ export async function generateMetadata({ params: { locale } }: { params: { local
 
   return {
     metadataBase: new URL('https://www.iframegenerator.pro'),
-    title: {
-      default: metadata.title.default,
-      template: metadata.title.template
-    },
+    title: metadata.title,
     description: metadata.description,
     authors: [{ name: metadata.authors }],
     creator: metadata.creator,
@@ -51,7 +48,7 @@ export async function generateMetadata({ params: { locale } }: { params: { local
     alternates: {
       canonical: `/${locale}`,
       languages: {
-        'en': '/en',
+        'en': '/',
         'zh': '/zh',
       },
     },

@@ -158,10 +158,7 @@
     "zh": "中文"
   },
   "metadata": {
-    "title": {
-      "default": "免费IFrame生成器和代码制作工具 | 在线创建嵌入代码",
-      "template": "%s | 最佳IFrame生成工具"
-    },
+    "title": "免费IFrame生成器和代码制作工具 | 在线创建嵌入代码",
     "description": "使用我们免费的在线iframe生成器创建和自定义iframe。生成安全的嵌入代码，创建响应式iframe，并自定义嵌入设置。最佳的安全网站嵌入iframe制作工具。",
     "authors": "IFrame生成器团队",
     "creator": "IFrame生成器",

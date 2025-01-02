@@ -163,11 +163,8 @@
     "zh": "Chinese"
   },
   "metadata": {
-    "title": {
-      "default": "Free IFrame Generator & Code Maker | Create Embed Codes Online",
-      "template": "%s | Best IFrame Generator Tool"
-    },
-    "description": "Create and customize iframes with our free online iframe generator. Generate secure embed codes, create responsive iframes, and customize embed settings. The best iframe maker for secure website embedding.",
+    "title": "Free IFrame Generator: Create Secure Embed Codes",
+    "description": "Create secure, customized iframes effortlessly with our online generator. Preview changes live and ensure mobile-friendly, accessible embeds.",
     "authors": "IFrame Generator Team",
     "creator": "IFrame Generator",
     "publisher": "IFrame Generator",
