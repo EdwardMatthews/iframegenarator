@@ -206,6 +206,26 @@
         "name": "WEBP to PDF",
         "url": "https://webptopdf.pro/",
         "description": "Convert WebP to PDF"
+      },
+      "demonNameGenerator": {
+        "name": "Demon Name Generator",
+        "url": "https://demonnamegenerator.pro/",
+        "description": "Generate Demon Names"
+      },
+      "kingdomNameGenerator": {
+        "name": "Kingdom Name Generator",
+        "url": "https://kingdomnamegenerator.pro/",
+        "description": "Generate Kingdom Names"
+      },
+      "harrypotterNameGenerator": {
+        "name": "Harry Potter Name Generator",
+        "url": "https://harrypotternamegenerator.pro/",
+        "description": "Generate Harry Potter Style Names"
+      },
+      "wuTangNameGenerator": {
+        "name": "Wu Tang Name Generator",
+        "url": "https://wutangnamegenerator.pro/",
+        "description": "Generate Wu Tang Clan Names"
       }
     }
   },

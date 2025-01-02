@@ -201,6 +201,26 @@
         "name": "WEBP转PDF工具",
         "url": "https://webptopdf.pro/",
         "description": "将WebP格式转换为PDF格式"
+      },
+      "demonNameGenerator": {
+        "name": "恶魔名字生成器",
+        "url": "https://demonnamegenerator.pro/",
+        "description": "生成恶魔名字"
+      },
+      "kingdomNameGenerator": {
+        "name": "王国名字生成器",
+        "url": "https://kingdomnamegenerator.pro/",
+        "description": "生成王国名字"
+      },
+      "harrypotterNameGenerator": {
+        "name": "哈利波特名字生成器",
+        "url": "https://harrypotternamegenerator.pro/",
+        "description": "生成哈利波特风格名字"
+      },
+      "wuTangNameGenerator": {
+        "name": "Wu Tang名字生成器",
+        "url": "https://wutangnamegenerator.pro/",
+        "description": "生成Wu Tang风格名字"
       }
     }
   },
