@@ -54,7 +54,6 @@ export default async function HomePage() {
     <>
       <Header locale="en" />
       <main>
-        <h1 className="sr-only">{t('page.h1')}</h1>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <section aria-label={t('page.label')} id="features-section">
             <h2 className="text-2xl font-bold mb-6">{t('page.heading')}</h2>
