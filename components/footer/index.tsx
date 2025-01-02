@@ -61,6 +61,31 @@ export default async function Footer({ locale }: FooterProps) {
       name: t('footer.tools.ddsToPng.name'),
       url: t('footer.tools.ddsToPng.url'),
       description: t('footer.tools.ddsToPng.description')
+    },
+    {
+      name: t('footer.tools.webpToPdf.name'),
+      url: t('footer.tools.webpToPdf.url'),
+      description: t('footer.tools.webpToPdf.description')
+    },
+    {
+      name: t('footer.tools.demonNameGenerator.name'),
+      url: t('footer.tools.demonNameGenerator.url'),
+      description: t('footer.tools.demonNameGenerator.description')
+    },
+    {
+      name: t('footer.tools.kingdomNameGenerator.name'),
+      url: t('footer.tools.kingdomNameGenerator.url'),
+      description: t('footer.tools.kingdomNameGenerator.description')
+    },
+    {
+      name: t('footer.tools.harrypotterNameGenerator.name'),
+      url: t('footer.tools.harrypotterNameGenerator.url'),
+      description: t('footer.tools.harrypotterNameGenerator.description')
+    },
+    {
+      name: t('footer.tools.wuTangNameGenerator.name'),
+      url: t('footer.tools.wuTangNameGenerator.url'),
+      description: t('footer.tools.wuTangNameGenerator.description')
     }
   ];
 
