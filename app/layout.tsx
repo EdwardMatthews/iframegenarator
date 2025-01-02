@@ -1,6 +1,7 @@
 import { Inter } from 'next/font/google';
 import '@/styles/globals.css';
 import { Metadata } from 'next';
+import GoogleAnalytics from '@/components/GoogleAnalytics';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -32,6 +33,9 @@ export default function RootLayout({
 }) {
   return (
     <html suppressHydrationWarning lang="en">
+      <head>
+        <GoogleAnalytics />
+      </head>
       <body suppressHydrationWarning className={inter.className}>
         {children}
       </body>

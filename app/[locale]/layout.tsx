@@ -4,6 +4,7 @@ import { Locale } from '@/types';
 import Header from '@/components/header';
 import Footer from '@/components/footer';
 import { Metadata } from 'next';
+import GoogleAnalytics from '@/components/GoogleAnalytics';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -85,9 +86,10 @@ export default function LocaleLayout({
 }) {
   return (
     <>
+      <GoogleAnalytics />
       <Header locale={locale} />
       {children}
       <Footer locale={locale} />
     </>
   );
-} 
+}
