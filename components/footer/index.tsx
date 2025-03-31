@@ -183,6 +183,7 @@ export default async function Footer({ locale }: FooterProps) {
           <p className="text-sm text-center text-gray-500">
             © {new Date().getFullYear()} {t('footer.copyright')}
           </p>
+          <a href="https://matthewss-organization.gitbook.io/iframegenerator" className="text-sm text-center text-gray-500">GitDoc</a>
         </div>
       </div>
     </footer>
