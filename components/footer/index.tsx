@@ -93,6 +93,11 @@ export default async function Footer({ locale }: FooterProps) {
       name: t('footer.tools.wuTangNameGenerator.name'),
       url: t('footer.tools.wuTangNameGenerator.url'),
       description: t('footer.tools.wuTangNameGenerator.description')
+    },
+    {
+      name: t('footer.tools.pdfToMarkdown.name'),
+      url: t('footer.tools.pdfToMarkdown.url'),
+      description: t('footer.tools.pdfToMarkdown.description')
     }
   ];
 
