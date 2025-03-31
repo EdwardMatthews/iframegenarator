@@ -4,7 +4,8 @@ import {
   FaTwitter,
   FaFacebook,
   FaLinkedin,
-  FaGithub
+  FaGithub,
+  FaCalendar
 } from 'react-icons/fa';
 
 interface FooterProps {
@@ -45,6 +46,12 @@ export default async function Footer({ locale }: FooterProps) {
       name: 'GitHub',
       icon: <FaGithub className="w-5 h-5" />,
       href: 'https://github.com/EdwardMatthews/iframegenarator',
+      color: 'hover:text-gray-900'
+    },
+    {
+      name: 'Cal',
+      icon: <FaCalendar className="w-5 h-5" />,
+      href: 'https://cal.com/edward-umt5ht',
       color: 'hover:text-gray-900'
     }
   ];

@@ -223,6 +223,11 @@
         "name": "Wu Tang Name Generator",
         "url": "https://wutangnamegenerator.pro/",
         "description": "Generate Wu Tang Clan Names"
+      },
+      "pdfToMarkdown": {
+        "name": "PDF to Markdown",
+        "url": "https://pdftomarkdown.pro/",
+        "description": "Convert PDF to Markdown"
       }
     }
   },
