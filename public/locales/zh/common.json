@@ -218,6 +218,11 @@
         "name": "Wu Tang名字生成器",
         "url": "https://wutangnamegenerator.pro/",
         "description": "生成Wu Tang风格名字"
+      },
+      "pdfToMarkdown": {
+        "name": "PDF转Markdown工具",
+        "url": "https://pdftomarkdown.pro/",
+        "description": "将PDF转换为Markdown"
       }
     }
   },
