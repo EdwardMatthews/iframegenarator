@@ -35,6 +35,10 @@ export function middleware(request: NextRequest) {
     return;
   }
 
+  if (pathname === '/r') {
+    return;
+  }
+
   // 检查是否访问了不支持的语言路径
   const firstSegment = pathname.split('/')[1];
   if (firstSegment === 'en') {
