@@ -8,6 +8,8 @@ export default function R() {
       <a href="https://cal.com/matthews-edward-qf14b4">Calendar</a>
       <br />
       <a href="https://www.creem.io/bip/edward">Creem</a>
+      <br />
+      <a href="https://kimi-k2.ai/">Kimi K2</a>
     </div>
   );
 }
