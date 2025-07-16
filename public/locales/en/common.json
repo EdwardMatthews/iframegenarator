@@ -228,6 +228,11 @@
         "name": "PDF to Markdown",
         "url": "https://www.google.com/url?sa=E&q=https%3A%2F%2Fpdftomarkdown.pro%2F",
         "description": "Convert PDF to Markdown"
+      },
+      "kimik2": {
+        "name": "Kimik2",
+        "url": "https://kimi-k2.ai/",
+        "description": "Try Kimik2 Model"
       }
     }
   },

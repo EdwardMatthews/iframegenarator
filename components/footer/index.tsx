@@ -98,6 +98,11 @@ export default async function Footer({ locale }: FooterProps) {
       name: t('footer.tools.pdfToMarkdown.name'),
       url: t('footer.tools.pdfToMarkdown.url'),
       description: t('footer.tools.pdfToMarkdown.description')
+    },
+    {
+      name: t('footer.tools.kimik2.name'),
+      url: t('footer.tools.kimik2.url'),
+      description: t('footer.tools.kimik2.description')
     }
   ];
 
